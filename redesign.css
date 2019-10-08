@@ -1247,8 +1247,8 @@ body.fix-modal {
     top: 50%;
     right: 14px;
     transform:translateY(-50%);
-    height: 14px;
-    width: 14px;
+    /*height: 14px;*/
+    /*width: 14px;*/
     background-color: #fff;
     opacity: 0;
     transition: all .1s ease;
