@@ -293,6 +293,40 @@
 }
 
 
+.icon-logo-ispi {
+    display: inline-block;
+    fill: #b5b5b5;
+    font-size: 52px;
+    width: 1em;
+    height: .7em;
+}
+
+
+.icon-arrow-bottom {
+    display: inline-block;
+    fill: #b5b5b5;
+    font-size: 12px;
+    width: 1em;
+    height: .5em;
+}
+
+
+.icon-close,
+.icon-heart,
+.icon-filter,
+.icon-basket-outline,
+.icon-service,
+.icon-shop-outline,
+.icon-delivery-outline,
+.icon-pay-outline,
+.icon-email-2,
+.icon-phone-outline {
+    display: inline-block;
+    fill: #b5b5b5;
+    font-size: 20px;
+    width: 1em;
+    height: 1em;
+}
 
 
 

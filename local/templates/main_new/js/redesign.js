@@ -41,4 +41,22 @@ $(function(){
         slidesToShow: 1,
         slidesToScroll: 1
     });
+
+    $(document).on('click', '.footer-mobile-menu__title', function(e){
+        e.preventDefault();
+        var $item = $(this).parents('.footer-mobile-menu__item');
+        $item.toggleClass('active');
+        $item.find('.footer-mobile-menu__dropdown').slideToggle();
+    });
+
+    $(document).on('click', '.c-header-hamburger', function(e){
+        e.preventDefault();
+        $('.header-mobile-menu-layout').addClass('is-show');
+        $('body').addClass('fix-modal');
+    });
+    $(document).on('click', '.header-mobile-menu__close', function(e){
+        e.preventDefault();
+        $('.header-mobile-menu-layout').removeClass('is-show');
+        $('body').removeClass('fix-modal');
+    });
 });
