@@ -1239,6 +1239,31 @@ body.fix-modal {
 
 .c-search-col:nth-child(1) {
     flex: 0 1 100%;
+    position: relative;
+}
+
+.c-search-del {
+    position: absolute;
+    top: 50%;
+    right: 14px;
+    transform:translateY(-50%);
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    opacity: 0;
+    transition: all .1s ease;
+}
+
+.c-search-del.active {
+    opacity: 1;
+    transition: all .1s ease;
+}
+
+.c-search-del svg {
+    font-size: 14px;
+    fill: #8f483d;
+    opacity: .7;
+    cursor: pointer;
 }
 
 .c-search-col:nth-child(2) {
@@ -1262,7 +1287,7 @@ body.fix-modal {
     height: 40px;
     line-height: 1;
     font-size: 16px;
-    padding: 10px 14px;
+    padding: 10px 34px 10px 14px;
 }
 
 .c-search-col {

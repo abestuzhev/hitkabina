@@ -59,4 +59,20 @@ $(function(){
         $('.header-mobile-menu-layout').removeClass('is-show');
         $('body').removeClass('fix-modal');
     });
+
+
+    $('#searchPage').on('input', function(){
+        $('.c-search-del').addClass('active');
+
+        if($('#searchPage').val == '') {
+            $('.c-search-del').removeClass('active');
+        }
+    });
+
+    $(document).on('click', '.c-search-del', function(e){
+        e.preventDefault();
+        $('#searchPage').val('');
+        $(this).removeClass('active');
+    });
+
 });

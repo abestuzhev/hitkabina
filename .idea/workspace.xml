@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21722d34-7f05-4c8b-9769-9cd615fead5d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icon.css" afterPath="$PROJECT_DIR$/icon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/templates/main_new/images/redesign/category/main.svg" afterPath="$PROJECT_DIR$/local/templates/main_new/images/redesign/category/main.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/templates/main_new/js/redesign.js" afterPath="$PROJECT_DIR$/local/templates/main_new/js/redesign.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redesign.css" afterPath="$PROJECT_DIR$/redesign.css" />
     </list>
@@ -34,11 +31,10 @@
           <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="268">
-                  <caret line="166" column="51" selection-start-line="166" selection-start-column="28" selection-end-line="166" selection-end-column="51" />
+                <state relative-caret-position="310">
+                  <caret line="406" column="76" selection-start-line="406" selection-start-column="66" selection-end-line="406" selection-end-column="76" />
                   <folding>
                     <element signature="n#style#0;n#img#0;n#div#0;n#noscript#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -129,11 +125,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="redesign.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="redesign.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/redesign.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="395">
-                  <caret line="671" column="17" selection-start-line="671" selection-start-column="17" selection-end-line="671" selection-end-column="17" />
+                <state relative-caret-position="582">
+                  <caret line="1256" column="16" selection-start-line="1256" selection-start-column="16" selection-end-line="1256" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -149,11 +145,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="redesign.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="redesign.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/local/templates/main_new/js/redesign.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="799">
-                  <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+                <state relative-caret-position="612">
+                  <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -163,7 +159,7 @@
             <entry file="file://$PROJECT_DIR$/home.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="2992">
-                  <caret line="410" column="0" selection-start-line="410" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
+                  <caret line="413" column="0" selection-start-line="413" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
                   <folding>
                     <element signature="n#style#0;n#img#0;n#div#0;n#noscript#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -191,12 +187,12 @@
                     <element signature="n#style#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1570524279898" expanded="true" signature="2257:102151" placeholder="..." />
-                    <marker date="1570524279898" expanded="true" signature="4726:71583" placeholder="..." />
-                    <marker date="1570524279898" expanded="true" signature="4756:15441" placeholder="..." />
-                    <marker date="1570524279898" expanded="true" signature="77408:101738" placeholder="..." />
-                    <marker date="1570524279898" expanded="true" signature="77448:91250" placeholder="..." />
-                    <marker date="1570524279898" expanded="true" signature="84575:91239" placeholder="..." />
+                    <marker date="1570525354082" expanded="true" signature="2257:102387" placeholder="..." />
+                    <marker date="1570525354082" expanded="true" signature="4726:71819" placeholder="..." />
+                    <marker date="1570525354082" expanded="true" signature="4756:15441" placeholder="..." />
+                    <marker date="1570525354082" expanded="true" signature="77644:101974" placeholder="..." />
+                    <marker date="1570525354082" expanded="true" signature="77684:91486" placeholder="..." />
+                    <marker date="1570525354082" expanded="true" signature="84811:91475" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -228,9 +224,9 @@
         <option value="$PROJECT_DIR$/local/templates/main_new/images/redesign/category/icon/icon-basket-outline.svg" />
         <option value="$PROJECT_DIR$/local/templates/main_new/images/redesign/category/main.svg" />
         <option value="$PROJECT_DIR$/icon.css" />
-        <option value="$PROJECT_DIR$/local/templates/main_new/js/redesign.js" />
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/redesign.css" />
+        <option value="$PROJECT_DIR$/local/templates/main_new/js/redesign.js" />
       </list>
     </option>
   </component>
@@ -341,12 +337,12 @@
       <workItem from="1570344737352" duration="18814000" />
       <workItem from="1570364548647" duration="6703000" />
       <workItem from="1570469201632" duration="6608000" />
-      <workItem from="1570513548410" duration="9165000" />
+      <workItem from="1570513548410" duration="10521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69179000" />
+    <option name="totallyTimeSpent" value="70535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="0" />
@@ -758,18 +754,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local/templates/main_new/js/redesign.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2992">
-          <caret line="410" column="0" selection-start-line="410" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
+          <caret line="413" column="0" selection-start-line="413" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#noscript#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -797,20 +785,28 @@
             <element signature="n#style#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1570524279898" expanded="true" signature="2257:102151" placeholder="..." />
-            <marker date="1570524279898" expanded="true" signature="4726:71583" placeholder="..." />
-            <marker date="1570524279898" expanded="true" signature="4756:15441" placeholder="..." />
-            <marker date="1570524279898" expanded="true" signature="77408:101738" placeholder="..." />
-            <marker date="1570524279898" expanded="true" signature="77448:91250" placeholder="..." />
-            <marker date="1570524279898" expanded="true" signature="84575:91239" placeholder="..." />
+            <marker date="1570525354082" expanded="true" signature="2257:102387" placeholder="..." />
+            <marker date="1570525354082" expanded="true" signature="4726:71819" placeholder="..." />
+            <marker date="1570525354082" expanded="true" signature="4756:15441" placeholder="..." />
+            <marker date="1570525354082" expanded="true" signature="77644:101974" placeholder="..." />
+            <marker date="1570525354082" expanded="true" signature="77684:91486" placeholder="..." />
+            <marker date="1570525354082" expanded="true" signature="84811:91475" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redesign.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="671" column="17" selection-start-line="671" selection-start-column="17" selection-end-line="671" selection-end-column="17" />
+        <state relative-caret-position="582">
+          <caret line="1256" column="16" selection-start-line="1256" selection-start-column="16" selection-end-line="1256" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/templates/main_new/js/redesign.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
           <folding />
         </state>
       </provider>
