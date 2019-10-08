@@ -63,9 +63,11 @@ $(function(){
 
     $('#searchPage').on('input', function(){
         $('.c-search-del').addClass('active');
+        $('.c-search-result').addClass('is-show');
 
         if($('#searchPage').val == '') {
             $('.c-search-del').removeClass('active');
+            $('.c-search-result').removeClass('is-show');
         }
     });
 
@@ -73,6 +75,7 @@ $(function(){
         e.preventDefault();
         $('#searchPage').val('');
         $(this).removeClass('active');
+        $('.c-search-result').removeClass('is-show');
     });
 
 });
