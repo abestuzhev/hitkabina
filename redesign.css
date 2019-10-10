@@ -2031,10 +2031,10 @@ body.fix-modal {
 
 .contact-shop-body {
     border-right: 1px solid #8f483d;
+    height: 870px;
 }
 
 .contact-shop-list {
-
 }
 
 .contact-shop-list__item {
@@ -2107,31 +2107,57 @@ body.fix-modal {
 .contact-info {
     padding: 0 24px;
     margin-bottom: 24px;
+    color: #373d43;
+    font-size: 16px;
 }
 
 .contact-info__title {
-
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .contact-info__mode {
-
+    margin-bottom: 10px;
+    color: #8f483d;
 }
 
 
 .contact-info__address {
-
+    color: #373d43;
+    margin-bottom: 10px;
 }
 
 .contact-info-grid {
-
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
 }
 
 .contact-info__phone {
+    font-weight: 700;
+    margin-right: 40px;
+}
 
+.contact-info__phone a {
+    color: #373d43;
 }
 
 .contact-info__callback {
-
+    color: #8f483d;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-right: 20px;
 }
 
 .contact-info__email {
@@ -2139,28 +2165,102 @@ body.fix-modal {
 }
 
 .contact-requisite {
-    padding: 0 24px;
+    padding: 0 40px;
     margin-bottom: 24px;
 }
 
-.contact-requisite-line {
-
+.contact-requisite__name {
+    margin-bottom: 22px;
 }
+
+.contact-requisite-line {
+    margin-bottom: 6px;
+}
+
+.contact-requisite-line
 
 .contact-requisite-line p {
 
 }
 
+.contact-requisite__address {
+    margin-top: 20px;
+}
+
+.contact-requisite__address p {
+    margin-bottom: 4px;
+}
+
 
 .contact-requisite__grid {
-
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
 }
 
 .contact-requisite__col {
 
 }
 
+.contact-requisite__col:nth-child(1) {
+    width: 230px;
+}
 
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #8f483d;
+    width: 10px;
+    border-radius: 0;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover {
+    background-color: #82413d;
+}
+
+.mCS-light-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-dark-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 10px;
+}
+
+.mCS-minimal.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-minimal.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+    background-color: #82413d;
+    opacity: 1;
+}
+
+.mCSB_scrollTools {
+    width: 10px;
+}
+
+.mCSB_inside > .mCSB_container {
+    margin-right: 10px;
+}
+
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    width: 10px;
+    background-color: #a2a2a2;
+    border-radius: 0;
+
+}
+
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+    background-color: #82413d; background-color: rgba(143, 72, 61, 0.9);
+    filter: "alpha(opacity=90)"; -ms-filter: "alpha(opacity=90)";
+}
+
+#mCSB_1_dragger_vertical {
+
+}
 
 
 

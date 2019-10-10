@@ -78,4 +78,15 @@ $(function(){
         $('.c-search-result').removeClass('is-show');
     });
 
+    // $(".contact-shop-body").mCustomScrollbar();
+
+    $(".contact-shop-body").mCustomScrollbar({
+        // theme:"rounded-dots",
+        scrollInertia:300
+    });
+
+    // $('.contact-shop-body').mCustomScrollbar("scrollTo","bottom",{
+    //     scrollInertia:3000
+    // });
+
 });
