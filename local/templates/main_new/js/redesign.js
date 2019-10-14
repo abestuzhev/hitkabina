@@ -80,13 +80,21 @@ $(function(){
 
     // $(".contact-shop-body").mCustomScrollbar();
 
-    $(".contact-shop-body").mCustomScrollbar({
-        // theme:"rounded-dots",
-        scrollInertia:300
-    });
+
+    if($('div').hasClass('contact-shop-body')){
+        $(".contact-shop-body").mCustomScrollbar({
+            // theme:"rounded-dots",
+            scrollInertia:300
+        });
+    }
+
 
     // $('.contact-shop-body').mCustomScrollbar("scrollTo","bottom",{
     //     scrollInertia:3000
     // });
+
+    $('.btn-catalog').on('click', function(){
+        $('.catalog-menu').toggleClass('open');
+    })
 
 });

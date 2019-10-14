@@ -2749,3 +2749,39 @@ body.fix-modal {
     }
 
 }
+
+/*style 14-10-2019*/
+/*-----------------------------*/
+
+.catalog-menu-img  {
+    width: 22px;
+    height: 37px;
+    line-height: 37px;
+    position: relative;
+}
+.catalog-menu-img svg {
+    font-size: 20px;
+    fill: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.catalog-menu .dropdown-menu .dropdown-submenu:hover a,
+.catalog-menu .dropdown-menu .dropdown-submenu:focus a {
+    color: #8f483d;
+}
+
+.catalog-menu .dropdown-menu .dropdown-submenu:hover .catalog-menu-img svg,
+.catalog-menu .dropdown-menu .dropdown-submenu:focus .catalog-menu-img svg {
+    fill: #8f483d;
+}
+
+.dropdown-menu {
+    z-index: 999;
+}
