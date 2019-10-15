@@ -2785,3 +2785,147 @@ body.fix-modal {
 .dropdown-menu {
     z-index: 999;
 }
+
+
+/*style 15-10-2019*/
+/*-----------------------------*/
+
+@media (max-width:1060px){
+    .contact-shop {
+        flex: 1 0 250px;
+    }
+
+    .contact-shop-card {
+        padding: 10px;
+    }
+}
+
+@media (max-width:900px){
+    .contact {
+        display: block;
+        border: none;
+    }
+
+    .contact-shop__title {
+        display: none;
+    }
+
+    .contact-shop-body {
+        height: auto;
+    }
+
+    .contact-shop-body {
+        border: none;
+    }
+
+    .contact-shop-card__text span {
+        display: inline-block;
+    }
+
+    .contact-shop-list__item {
+        border: none;
+    }
+
+    .contact-shop-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .contact-shop-list__item {
+        width: 33.333%;
+        padding: 4px;
+    }
+    .contact-shop-card {
+        height: 100%;
+        border: 1px solid #8f483d;display: -webkit-box;
+
+
+    }
+
+    .contact-info,
+    .contact-requisite {
+        padding: 0;
+    }
+
+    .contact-img {
+        padding: 0;
+    }
+
+    .contact-map {
+        margin-bottom: 4px;
+        border: none;
+    }
+
+    .contact-img__item {
+        padding: 0;
+        margin-right: 4px;
+    }
+
+    .contact-img__item:last-child {
+        margin-right: 0;
+    }
+
+    .contact-shop-card span {
+        width: 100%;
+        height: 100%;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+
+    }
+
+    .contact-requisite,
+    .contact-requisite p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+
+@media (max-width:760px){
+    .contact-info-grid {
+        display: block;
+    }
+
+    .contact-info__phone,
+    .contact-info__callback,
+    .contact-info__email {
+        display: block;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .contact-requisite__grid {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .contact-shop-card__text {
+        font-size: 14px;
+    }
+
+    .contact-shop-list__item {
+        width: 50%;
+    }
+}
