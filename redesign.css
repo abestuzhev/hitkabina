@@ -3062,6 +3062,45 @@ body.fix-modal {
     color: #8f483d;
 }
 
+.product-card-sidebar-list {
+    margin: 14px 0;
+    border-left: 3px solid #cf6150;
+}
+
+.product-card-sidebar-list__line {
+    padding: 6px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.product-card-sidebar-list__title {
+    font-size: 13px;
+    color: #383d43;
+    padding-right: 10px;
+    width: 80%;
+}
+
+.product-card-sidebar-list__price {
+    color: #cf6150;
+    font-weight: 700;
+    font-size: 14px;
+    white-space: nowrap;
+    font-family: 'Intro', Arial, sans-serif;
+    width: 20%;
+}
+
+
 @media (max-width: 780px){
     .product-card-constituents__item {
         margin-right: 14px;
