@@ -3001,8 +3001,8 @@ body.fix-modal {
 }
 
 .product-card-constituents__img img {
-    width: 100%;
-    height: auto;
+    /*width: 100%;*/
+    /*height: auto;*/
 }
 
 .product-card-constituents__info {
