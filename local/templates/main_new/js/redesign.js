@@ -98,14 +98,14 @@ $(function(){
     });
 
 
-    function fix_size() {
-        var images = $('.product-card-constituents__img img');
+    function fix_size($elem) {
+        var images = $($elem).find('img');
         images.each(setsize);
 
         function setsize() {
             var img = $(this),
                 img_dom = img.get(0),
-                container = img.parents('.product-card-constituents__img');
+                container = img.parents($elem);
             if (img_dom.complete) {
                 resize();
             } else img.one('load', resize);
@@ -121,7 +121,7 @@ $(function(){
             }
         }
     }
-    $(window).on('resize', fix_size);
-    fix_size();
+    $(window).on('resize', fix_size('.brands-card'));
+    fix_size('.brands-card');
 
 });

@@ -1615,6 +1615,10 @@ body.fix-modal {
     margin-bottom: 26px;
 }
 
+.brands-list .slick-list {
+    padding: 10px 0;
+}
+
 .brands-list__item {
 }
 
@@ -1635,11 +1639,19 @@ body.fix-modal {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    transition: all .2s ease;
 }
 
 .brands-card img {
     display: inline-block;
     width: 80%;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.brands-card:hover {
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.1);
+    transition: all .2s ease;
 }
 
 /*c-btn*/
@@ -2285,7 +2297,7 @@ body.fix-modal {
     .pageWrapper {
         width: 100%;
         min-width: 641px;
-        max-width: 1200px;
+        max-width: 1600px;
     }
 
     .header {
