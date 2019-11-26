@@ -342,6 +342,33 @@
 }
 
 
+.icon-sort {
+    display: inline-block;
+    fill: #b5b5b5;
+    font-size: 20px;
+    width: 1em;
+    height: 1em;
+}
 
+.sortField.selected {
+    position: relative;
+}
 
+.sortField.selected .icon-sort {
+    fill: #ce614f;
+    position: absolute;
+    right: -26px;
+    top: -4px;
+}
 
+.sortFields .sortField {
+    margin: 0 20px 0 10px !important;
+}
+
+.sortFields .sortField:nth-child(1) {
+    margin-left: 20px !important;
+}
+
+.sortBlock {
+    display: block !important;
+}
