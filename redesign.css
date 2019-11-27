@@ -3160,3 +3160,73 @@ body.fix-modal {
         display: block;
     }
 }
+
+/*style 27-11-2019*/
+
+.icon-sort {
+    display: inline-block;
+    fill: #b5b5b5;
+    font-size: 20px;
+    width: 1em;
+    height: 1em;
+}
+
+.sortField.selected {
+    position: relative;
+}
+
+.sortField.selected .icon-sort {
+    fill: #ce614f;
+    position: absolute;
+    right: -26px;
+    top: -4px;
+}
+
+.sortFields .sortField {
+    margin: 0 20px 0 10px !important;
+}
+
+.sortFields .sortField:nth-child(1) {
+    margin-left: 20px !important;
+}
+
+.sortBlock {
+    display: block !important;
+}
+
+@media(max-width: 640px) {
+    .sortFields .sortField {
+        font-size: 13px !important;
+        margin: 0 12px 0 12px !important;
+    }
+
+    .sortFields .sortField:nth-child(1) {
+        margin-left: 12px !important;
+    }
+
+    .sortBlock .sortFields {
+        text-align: left;
+        border: none;
+        padding-top: 10px;
+    }
+    
+    .sortBlock {
+        background-color: transparent;
+    }    
+
+    .sortBlock .pull-left {
+        display: none;
+    }
+
+    .sortBlock .panel-heading {
+        padding: 10px 0;
+    }
+
+    .sortField.selected .icon-sort {
+        fill: #ce614f;
+        position: absolute;
+        right: -18px;
+        top: -1px;
+        font-size: 16px;
+    }
+}
