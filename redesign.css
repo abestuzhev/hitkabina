@@ -3192,8 +3192,8 @@ body.fix-modal {
 
 .sortField-icon {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: -24px;
+    top: -4px;
 }
 
 .sortFields .sortField {
@@ -3230,6 +3230,11 @@ body.fix-modal {
 
     .sortBlock .pull-left {
         display: none;
+    }
+
+    .sortField-icon {
+        right: 0;
+        top: 0;
     }
 
     .sortBlock .panel-heading {

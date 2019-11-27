@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21722d34-7f05-4c8b-9769-9cd615fead5d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redesign.css" afterPath="$PROJECT_DIR$/redesign.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sort.html" afterPath="$PROJECT_DIR$/sort.html" />
     </list>
     <ignored path="hitkabina.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,8 +64,8 @@
           <file leaf-file-name="sort.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sort.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="1120" column="26" selection-start-line="1120" selection-start-column="26" selection-end-line="1120" selection-end-column="26" />
+                <state relative-caret-position="255">
+                  <caret line="1111" column="65" selection-start-line="1111" selection-start-column="65" selection-end-line="1111" selection-end-column="65" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
@@ -116,8 +114,8 @@
           <file leaf-file-name="redesign.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/redesign.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="3183" column="29" selection-start-line="3183" selection-start-column="29" selection-end-line="3183" selection-end-column="29" />
+                <state relative-caret-position="573">
+                  <caret line="3234" column="21" selection-start-line="3234" selection-start-column="21" selection-end-line="3234" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -443,12 +441,12 @@
       <workItem from="1574787875279" duration="1469000" />
       <workItem from="1574834895903" duration="1819000" />
       <workItem from="1574839453544" duration="30000" />
-      <workItem from="1574850759907" duration="1601000" />
+      <workItem from="1574850759907" duration="1946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104174000" />
+    <option name="totallyTimeSpent" value="104519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="0" />
@@ -721,8 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21046">
-          <caret line="1238" column="0" selection-start-line="1238" selection-start-column="0" selection-end-line="1239" selection-end-column="0" />
+        <state relative-caret-position="28492">
+          <caret line="1676" column="24" selection-start-line="1676" selection-start-column="24" selection-end-line="1676" selection-end-column="159" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#noscript#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -765,21 +763,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sort.html">
+    <entry file="file://$PROJECT_DIR$/redesign.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="1120" column="26" selection-start-line="1120" selection-start-column="26" selection-end-line="1120" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="573">
+          <caret line="3234" column="21" selection-start-line="3234" selection-start-column="21" selection-end-line="3234" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redesign.css">
+    <entry file="file://$PROJECT_DIR$/sort.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="3183" column="29" selection-start-line="3183" selection-start-column="29" selection-end-line="3183" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="1111" column="65" selection-start-line="1111" selection-start-column="65" selection-end-line="1111" selection-end-column="65" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
