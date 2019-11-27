@@ -3181,6 +3181,7 @@ body.fix-modal {
 
 .sortField.selected {
     position: relative;
+    cursor:pointer !important;
 }
 
 .sortField.selected .icon-sort-down,
@@ -3191,8 +3192,8 @@ body.fix-modal {
 
 .sortField-icon {
     position: absolute;
-    right: -26px;
-    top: -4px;
+    right: 0;
+    top: 0;
 }
 
 .sortFields .sortField {
