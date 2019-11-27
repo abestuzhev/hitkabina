@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="21722d34-7f05-4c8b-9769-9cd615fead5d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icon.css" afterPath="$PROJECT_DIR$/icon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/templates/main_new/images/redesign/category/main.svg" afterPath="$PROJECT_DIR$/local/templates/main_new/images/redesign/category/main.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redesign.css" afterPath="$PROJECT_DIR$/redesign.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sort.html" afterPath="$PROJECT_DIR$/sort.html" />
     </list>
     <ignored path="hitkabina.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +26,7 @@
     <favorites_list name="hitkabina" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5520548">
+    <splitter split-orientation="horizontal" split-proportion="0.64019334">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
@@ -66,14 +67,10 @@
           <file leaf-file-name="sort.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sort.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="573">
-                  <caret line="1089" column="10" selection-start-line="1089" selection-start-column="10" selection-end-line="1089" selection-end-column="10" />
+                <state relative-caret-position="374">
+                  <caret line="1118" column="49" selection-start-line="1118" selection-start-column="49" selection-end-line="1118" selection-end-column="49" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#2;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -106,8 +103,8 @@
           <file leaf-file-name="main.svg" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/local/templates/main_new/images/redesign/category/main.svg">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="13277">
-                  <caret line="781" column="50" selection-start-line="781" selection-start-column="50" selection-end-line="781" selection-end-column="50" />
+                <state relative-caret-position="13362">
+                  <caret line="786" column="50" selection-start-line="786" selection-start-column="50" selection-end-line="786" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -120,8 +117,8 @@
           <file leaf-file-name="redesign.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/redesign.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="692">
-                  <caret line="3225" column="22" selection-start-line="3225" selection-start-column="22" selection-end-line="3225" selection-end-column="22" />
+                <state relative-caret-position="544">
+                  <caret line="3194" column="14" selection-start-line="3194" selection-start-column="14" selection-end-line="3194" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -130,7 +127,7 @@
           <file leaf-file-name="icon.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/icon.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="808">
+                <state relative-caret-position="5831">
                   <caret line="343" column="0" selection-start-line="343" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
                   <folding />
                 </state>
@@ -239,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -372,6 +368,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -445,18 +442,20 @@
       <workItem from="1571234518925" duration="9000" />
       <workItem from="1571915762259" duration="1934000" />
       <workItem from="1574787875279" duration="1469000" />
-      <workItem from="1574834895903" duration="1160000" />
+      <workItem from="1574834895903" duration="1819000" />
+      <workItem from="1574839453544" duration="30000" />
+      <workItem from="1574850759907" duration="836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101884000" />
+    <option name="totallyTimeSpent" value="103409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19735391" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20176406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -737,8 +736,8 @@
     <entry file="file://$USER_HOME$/Desktop/icon-sort.svg" />
     <entry file="file://$PROJECT_DIR$/local/templates/main_new/images/redesign/category/main.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13277">
-          <caret line="781" column="50" selection-start-line="781" selection-start-column="50" selection-end-line="781" selection-end-column="50" />
+        <state relative-caret-position="13362">
+          <caret line="786" column="50" selection-start-line="786" selection-start-column="50" selection-end-line="786" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -761,7 +760,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/icon.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
+        <state relative-caret-position="5831">
           <caret line="343" column="0" selection-start-line="343" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
           <folding />
         </state>
@@ -769,22 +768,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/redesign.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="3225" column="22" selection-start-line="3225" selection-start-column="22" selection-end-line="3225" selection-end-column="22" />
+        <state relative-caret-position="544">
+          <caret line="3194" column="14" selection-start-line="3194" selection-start-column="14" selection-end-line="3194" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sort.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="1089" column="10" selection-start-line="1089" selection-start-column="10" selection-end-line="1089" selection-end-column="10" />
+        <state relative-caret-position="374">
+          <caret line="1118" column="49" selection-start-line="1118" selection-start-column="49" selection-end-line="1118" selection-end-column="49" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -100,7 +100,7 @@
 
 
 <div class="pageWrapper container-fluid indexPage ">
-    <header class="c-header">
+    <header class="c-header" style="display:none;">
         <meta itemprop="headline"
               content="Интернет магазин сантехники в Санкт-Петербурге ХитКабина: душевые кабины, ванны, уголки купить с бесплатной доставкой">
         <meta itemprop="description"
@@ -315,7 +315,7 @@
     </header>
 
 
-    <div class="search-area">
+    <div class="search-area" style="display:none;">
         <div class="dropdown catalog-menu">
             <a role="button" data-toggle="dropdown" class="btn btn-catalog" data-target="#" href="#">
                 Каталог <span>товаров</span>
@@ -906,7 +906,7 @@
     </div>
 
 
-    <div class="c-category">
+    <div class="c-category" style="display:none;">
         <div class="c-category-list">
             <!--START c-category-list__item-->
             <div class="c-category-list__item">
@@ -1112,9 +1112,16 @@
                 <a href="/catalog/vanny_i_shtorki_dlya_vann/akrilovye_vanny/?by=price&amp;order=asc&amp;bitrix_include_areas=Y" class="sortField" rel="nofollow">По цене</a>
                 <span class="sortField selected" rel="nofollow">
                     По популярности
-                    <svg class="icon-sort"><use xlink:href="./local/templates/main_new/images/redesign/category/main.svg#icon-sort"/></svg>
+                    <a href="" class="sortField-icon">
+                        <svg class="icon-sort"><use xlink:href="./local/templates/main_new/images/redesign/category/main.svg#icon-sort"/></svg>
+                    </a>
                 </span>
-                <a href="/catalog/vanny_i_shtorki_dlya_vann/akrilovye_vanny/?by=name&amp;order=asc&amp;bitrix_include_areas=Y" class="sortField" rel="nofollow">По алфавиту</a>
+                <span class="sortField selected" >
+                    По алфавиту
+                    <a href="" class="sortField-icon">
+                        <svg class="icon-sort-down"><use xlink:href="./local/templates/main_new/images/redesign/category/main.svg#icon-sort-down"/></svg>
+                    </a>
+                </span>
             </div>
         </div>
     </div>

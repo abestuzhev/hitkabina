@@ -3171,12 +3171,25 @@ body.fix-modal {
     height: 1em;
 }
 
+.icon-sort-down {
+    display: inline-block;
+    fill: #b5b5b5;
+    font-size: 20px;
+    width: 1em;
+    height: 1em;
+}
+
 .sortField.selected {
     position: relative;
 }
 
+.sortField.selected .icon-sort-down,
 .sortField.selected .icon-sort {
     fill: #ce614f;
+
+}
+
+.sortField-icon {
     position: absolute;
     right: -26px;
     top: -4px;
@@ -3222,6 +3235,7 @@ body.fix-modal {
         padding: 10px 0;
     }
 
+    .sortField.selected .icon-sort-down,
     .sortField.selected .icon-sort {
         fill: #ce614f;
         position: absolute;
